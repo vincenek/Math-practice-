@@ -1,0 +1,21 @@
+{
+  "name": "Math practuce",
+  "short_name": "math practice",
+  "description": "math practice",
+  "start_url": "https://vincenek.github.io/Math-practice-/",
+  "display": "standalone",
+  "background_color": "#f0f9ff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/W3Z8YnW3/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.postimg.cc/nzm2SkRQ/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
