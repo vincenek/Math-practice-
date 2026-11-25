@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Math Practice</h1>
+
+    <nav id="grade-picker" class="grade-picker" aria-label="Choose a grade">
+      <button data-grade="1">1</button>
+      <button data-grade="2">2</button>
+      <button data-grade="3">3</button>
+      <button data-grade="4">4</button>
+      <button data-grade="5">5</button>
+      <button data-grade="mixed" class="active">Mixed</button>
+    </nav>
+
+    <section class="card">
+      <p id="prompt" class="prompt"></p>
+
+      <form id="answer-form" class="answer-form" autocomplete="off">
+        <label for="answer" class="sr-only">Your answer</label>
+        <input id="answer" type="text" placeholder="Your answer" autocomplete="off" spellcheck="false">
+        <button type="submit" class="btn primary">Check</button>
+      </form>
+
+      <p id="feedback" class="feedback" aria-live="polite"></p>
+
+      <button id="show" class="btn-link" type="button">Show solution</button>
+
+      <ol id="steps" class="steps" aria-live="polite" hidden></ol>
+
+      <button id="next" class="btn primary wide" type="button" hidden>Next problem →</button>
+    </section>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
